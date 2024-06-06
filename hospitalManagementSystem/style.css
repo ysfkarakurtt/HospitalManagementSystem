@@ -1,0 +1,303 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'helvetica', sans-serif;
+    text-align: center;
+    background-image: url('design/backgroundImage.jpg'); 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+header {
+    position: relative;
+    width: 100%;
+    left: 0;
+    background: #77d5cb;
+    height: 150px;
+    top: 0;
+}
+
+header h2 {
+    position: absolute;
+    color: white;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tableOuter {
+    width: 750px;
+    height: 720px;
+    margin: 0 auto;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.tableOuter2 {
+    width: 750px;
+    height: 650px;
+    margin: 0 auto;
+    background: #e7e7e7;
+    border-radius: 10px;
+}
+
+.tableOuter3 {
+    width: 750px;
+    height: 550px;
+    margin: 0 auto;
+    background: #e7e7e7;
+    border-radius: 10px;
+}
+.tableOuter4 {
+    width: 750px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: transparent;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="password"] ,
+textarea{
+    width: 60%;
+    margin: 10px;
+    height: 50px;
+    background: #bce9e2;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: gray;
+}
+
+::placeholder {
+    font: 25px;
+    text-align: center;
+}
+
+.sub {
+    height: 40px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 15px;
+}
+
+#login {
+    background: #10ac84;
+}
+
+#memberPatient {
+    background: #ee5253;
+}
+
+#login:hover {
+    background: #1dd1a1;
+}
+
+#memberPatient:hover {
+    background: #ff6b6b;
+}
+
+a {
+    font-size: 18px;
+    color: (100, 100, 100);
+}
+
+.upper_bar {
+    position: relative;
+    width: 85%;
+    height: 100px;
+    left: 0;
+    background: #77d5cb;
+    top: 0;
+}
+
+.upper_bar h1 {
+    position: absolute;
+    left: 50px;
+    line-height: 50px;
+    color: white;
+}
+
+.menu h5 {
+    position: relative;
+    display: inline;
+    padding: 50px;
+    line-height: 100px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu h4 {
+    position: relative;
+    display: inline;
+    padding: 50px;
+    line-height: 100px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    right: 0;
+}
+
+
+
+.menu {
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    background:#77d5cb;
+    right: 0;
+}
+
+
+ .menu a {
+        display: inline-block;
+        padding:30px 20px; 
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        background: transparent; 
+        line-height: 40px; 
+        }
+
+
+a {
+    text-decoration: none;
+}
+
+
+.exit {
+    position: absolute;
+    width: 15%;
+    height: 100px;
+    background:#77d5cb;
+    right: 0;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 25px;
+    cursor: pointer;
+    top: 0;
+}
+
+.exit:hover {
+    background: red;
+}
+
+.name_surname {
+    position: relative;
+    width: 300px;
+    height: 20px;
+    left: 50px;
+}
+
+.name_surname h4 {
+    position: relative;
+    float: left;
+    color: #302829;
+}
+
+.center_div {
+    position: absolute;
+    width: 45%;
+    height: 500px;
+    background: transparent;
+    top: 150px;
+    opacity: 0.8;
+}
+
+#appointment_div {
+    right: 50px;
+}
+
+
+#doctor_div {
+    left: 50px;
+}
+
+#doctor_div p {
+    position: relative;
+    color: #292830;
+    font-size: 30px;
+    text-align: center;
+    top: 100px;
+}
+
+#doctor_div h3 {
+    text-align: center;
+    font-size: 28px;
+}
+
+select,
+#appointment_div input,
+button {
+    position: relative;
+    width: 450px;
+    height: 40px;
+    margin-top: 10px;
+    background: #292830;
+    color: white;
+    cursor: pointer;
+}
+
+#appointment_div form {
+    position: relative;
+    top: 50px;
+}
+
+.label {
+    position: relative;
+    width: 100%;
+    height: 60px;
+}
+
+.label label {
+    position: relative;
+    font-size: 25px;
+    line-height: 60px;
+    left: 50px;
+}
+
+.label input {
+    position: relative;
+    float: right;
+    height: 40px;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+tr {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background: #dddddd;
+}
+
+
+.navbar-nav {
+    margin-top: 20px;
+}
+
+
+
